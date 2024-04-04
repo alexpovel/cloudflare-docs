@@ -276,5 +276,5 @@ Preview your Durable Object Worker at `<YOUR_WORKER>.<YOUR_SUBDOMAIN>.workers.de
 By finishing this tutorial, you have successfully created, tested and deployed a Durable Object.
 ### Related resources
 - [Access a Durable Object from a Worker](/durable-objects/best-practices/access-durable-objects-from-a-worker/)
-- [Create Durable Object stubs](/durable-objects/best-practices/create-durable-object-stubs-and-send-requestss/)
+- [Create Durable Object stubs](/durable-objects/best-practices/create-durable-object-stubs-and-send-requests/)
 - [Miniflare](https://github.com/cloudflare/workers-sdk/tree/main/packages/miniflare) - Helpful tools for mocking and testing your Durable Objects.

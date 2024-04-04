@@ -33,7 +33,7 @@ let durableObjectStub = OBJECT_NAMESPACE.get(id);
 {{<definitions>}}
 
 - `id` {{<type>}}DurableObjectId{{</type>}}
-  - An ID constructed using `newUniqueId()`, `idFromName()`, or `idFromString()` on this Durable Object namespace. For details, refer to [Access a Durable Object](/durable-objects/best-practices/access-durable-object-from-a-worker/#generate-ids-randomly) .
+  - An ID constructed using `newUniqueId()`, `idFromName()`, or `idFromString()` on this Durable Object namespace. For details, refer to [Access a Durable Object](/durable-objects/best-practices/access-durable-objects-from-a-worker/#generate-ids-randomly) .
 
   - This method constructs an Object, which is a local client that provides access to a remote Object.
 
@@ -47,7 +47,7 @@ let durableObjectStub = OBJECT_NAMESPACE.get(id);
 
 You can call a Durable Object by:
 
-- [Sending HTTP requests](/durable-objects/best-practices/create-durable-object-stubs/#send-http-requests) to a Durable Object's `fetch()` handler.
+- [Sending HTTP requests](/durable-objects/best-practices/create-durable-object-stubs-and-send-requests/#send-http-requests) to a Durable Object's `fetch()` handler.
 - Invoking [Remote Procedure Call (RPC)](/workers/runtime-apis/rpc/) methods defined on a Durable Object class (available for Workers with a [compatibility date greater than or equal to `2024-04-03`](/workers/configuration/compatibility-dates/#remote-procedure-call-rpc)).
 - Using the [WebSocket API](durable-objects/reference/websockets/).
 
